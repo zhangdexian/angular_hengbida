@@ -1,0 +1,209 @@
+@import "_function";
+.register{
+  .header{
+    .w(750);
+    .h(86);
+    .b-g-c(#07771c);
+    position: relative;
+    a:first-child{
+      .c(#fff);
+      .dis-ib;
+      .h(86);
+      .f-s(60);
+      .l(20);
+      position: absolute;
+    }
+    h3{
+      .f-s(40);
+      .c(#fff);
+      .w(210);
+      .f-w-n;
+      .m-a;
+      .l-h(86);
+    }
+    a:last-child{
+      position: absolute;
+      .f-s(36);
+      .c(#fff);
+      .r(20);
+      .t(20);
+    }
+  }
+  .middle{
+    .p(90,20,350,20);
+    .f-s-0;
+    form{
+      .wrap{
+        label{
+          .dis-ib;
+          .w(148);
+          .h(78);
+          .f-s(36);
+          .c(#333);
+          -webkit-transform: translateY(-.1rem);
+          -moz-transform: translateY(-.1rem);
+          -ms-transform: translateY(-.1rem);
+          -o-transform: translateY(-.1rem);
+          transform: translateY(-.1rem);
+          text-align: justify;
+          vertical-align: middle;
+          position: relative;
+          &:after {
+          display: inline-block;
+          overflow: hidden;
+          width: 100%;
+          height: 0;
+          content: '';
+          vertical-align: top;
+          }
+          &:before{
+            position: absolute;
+            content: ':';
+            display: block;
+            overflow: hidden;
+            .t(0);
+            .l(150);
+
+          }
+        }
+        input{
+          .m-l(20);
+          .w(540);
+          .h(76);
+          .f-s(36);
+          .c(#333);
+          .t-i(20);
+          .b(1,solid,#dedada)
+        }
+        p{
+          .f-s(24);
+          .c(red);
+          .t-i(160);
+          .h(40);
+          .l-h(40);
+          .m-b(2);
+        }
+      }
+      .validate_wrap{
+        position: relative;
+        label{
+          .dis-ib;
+          .w(148);
+          .f-s(36);
+          .c(#333);
+          text-align: justify;
+          vertical-align: bottom;
+          &:after {
+            display: inline-block;
+            overflow: hidden;
+            width: 100%;
+            height: 0;
+            content: '';
+            vertical-align: top;
+          }
+          &:before{
+            position: absolute;
+            content: ':';
+            display: block;
+            overflow: hidden;
+            .t(5);
+            .l(150);
+          }
+        }
+        input{
+          .m-l(20);
+          .w(320);
+          .h(76);
+          .f-s(36);
+          .c(#333);
+          .t-i(20);
+          .b(1,solid,#dedada);
+          -webkit-transform: translateY(-.6rem);
+          -moz-transform: translateY(-.6rem);
+          -ms-transform: translateY(-.6rem);
+          -o-transform: translateY(-.6rem);
+          transform: translateY(-.6rem);
+        }
+        i{
+          .f-s(24);
+          position: absolute;
+          .t(23);
+          .l(446);
+          font-style: normal;
+          &.correct{
+            .c(green);
+          }
+          &.err{
+            .c(red);
+          }
+        }
+        span{
+          .dis-ib;
+          .w(200);
+          .h(76);
+          .b(1,solid,#dedada);
+          .m-l(18);
+          -webkit-transform: translateY(-.11rem);
+          -moz-transform: translateY(-.11rem);
+          -ms-transform: translateY(-.11rem);
+          -o-transform: translateY(-.11rem);
+          transform: translateY(-.11rem);
+        }
+      }
+      .subscribe{
+        .f-s(24);
+        .c(#666);
+        .m-t(50);
+        .p-l(140);
+        position: relative;
+        input{
+          opacity: 0;
+          .m-r(10);
+          position: relative;
+          z-index: 10;
+          .w(18);
+          .h(16);
+          &:checked +i b{
+            opacity: 1;
+          }
+        }
+        i{
+          display: inline-block;
+          .w(16);
+          .h(16);
+          .b(1,solid,#07771c);
+          position: absolute;
+          .t(8);
+          .l(150);
+          b{
+            position: absolute;
+            .t(-5);
+            .l(0);
+            font-style: normal;
+            .c(#07771c);
+            .f-s(20);
+            opacity: 0;
+          }
+        }
+        span{
+          .m-l(6);
+          .dis-ib;
+          .w(530);
+          a{
+            .c(#07771c);
+          }
+        }
+
+      }
+      button{
+        width: 100%;
+        .h(86);
+        .b-g-c(#07771c);
+        .m-t(50);
+        .f-s(34);
+        .c(#fff);
+        .l-h(86);
+      }
+    }
+  }
+}

@@ -1,0 +1,171 @@
+.pay_failure .header {
+  width: 15rem;
+  height: 1.72rem;
+  background-color: #07771c;
+  position: relative;
+}
+.pay_failure .header a {
+  color: #ffffff;
+  display: inline-block;
+  height: 1.72rem;
+  font-size: 1.2rem;
+  left: 0.4rem;
+  position: absolute;
+}
+.pay_failure .header h3 {
+  font-size: 0.8rem;
+  color: #ffffff;
+  width: 4.2rem;
+  font-weight: normal;
+  margin: 0 auto;
+  line-height: 1.72rem;
+}
+.pay_failure .header .toggle_menu {
+  position: absolute;
+  right: 0.4rem;
+  top: 0.4rem;
+  width: 1.28rem;
+  height: 0.2rem;
+  content: "";
+  background-color: #ffffff;
+  box-shadow: 0 .34rem 0 0 #fff,0 .68rem 0 0 #fff;
+}
+.pay_failure .middle {
+  width: 100%;
+  text-align: center;
+  padding: 1.8rem 0rem 1.4rem 0rem;
+}
+.pay_failure .middle img {
+  width: 5.98rem;
+  height: 6.02rem;
+}
+.pay_failure .middle h4 {
+  font-size: 1.12rem;
+  color: #ef0a0a;
+  font-weight: normal;
+  margin-top: 0.2rem;
+}
+.pay_failure .footer {
+  width: 100%;
+}
+.pay_failure .footer h5 {
+  width: 14.2rem;
+  margin: 0 auto;
+  font-size: 0.72rem;
+  color: #333333;
+  font-weight: normal;
+  line-height: 1.52rem;
+  border-bottom: 0.04rem dashed #dedede;
+}
+.pay_failure .footer .payment {
+  padding: 0 .4rem;
+  margin-top: 0.8rem;
+}
+.pay_failure .footer .payment li {
+  margin: .4rem 0;
+}
+.pay_failure .footer .payment li:nth-child(even) {
+  display: none;
+}
+.pay_failure .footer .payment li:nth-child(even) span {
+  color: #07771c;
+}
+.pay_failure .footer .payment li:nth-child(even) i {
+  background-color: #07771c;
+}
+.pay_failure .footer .payment li label {
+  font-size: 0.56rem;
+  color: #666666;
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+.pay_failure .footer .payment li label em {
+  display: inline-block;
+}
+.pay_failure .footer .payment li label span {
+  margin-left: 0.28rem;
+}
+.pay_failure .footer .payment li label input {
+  float: right;
+  opacity: 0;
+}
+.pay_failure .footer .payment li label i {
+  display: inline-block;
+  width: 1.04rem;
+  height: 1.04rem;
+  border-radius: 50%;
+  background-color: #bfbfbf;
+  position: absolute;
+  right: 0rem;
+  text-align: center;
+  line-height: 1.04rem;
+}
+.pay_failure .footer .payment li label i b {
+  font-style: normal;
+  color: #ffffff;
+}
+.pay_failure .footer .payment li:first-child label span,
+.pay_failure .footer .payment li:nth-child(2) label span,
+.pay_failure .footer .payment li:first-child label input,
+.pay_failure .footer .payment li:nth-child(2) label input {
+  vertical-align: 0.64rem;
+}
+.pay_failure .footer .payment li:first-child label em,
+.pay_failure .footer .payment li:nth-child(2) label em {
+  width: 2.24rem;
+  height: 1.68rem;
+}
+.pay_failure .footer .payment li:first-child label i,
+.pay_failure .footer .payment li:nth-child(2) label i {
+  top: 0.32rem;
+}
+.pay_failure .footer .payment li:nth-child(3) label span,
+.pay_failure .footer .payment li:nth-child(4) label span,
+.pay_failure .footer .payment li:nth-child(3) label input,
+.pay_failure .footer .payment li:nth-child(4) label input {
+  vertical-align: 0.88rem;
+}
+.pay_failure .footer .payment li:nth-child(3) label em,
+.pay_failure .footer .payment li:nth-child(4) label em {
+  width: 2.2rem;
+  height: 2.2rem;
+}
+.pay_failure .footer .payment li:nth-child(3) label i,
+.pay_failure .footer .payment li:nth-child(4) label i {
+  top: 0.6rem;
+}
+.pay_failure .footer .payment li:nth-child(5) label span,
+.pay_failure .footer .payment li:nth-child(6) label span,
+.pay_failure .footer .payment li:nth-child(5) label input,
+.pay_failure .footer .payment li:nth-child(6) label input {
+  vertical-align: 0.92rem;
+}
+.pay_failure .footer .payment li:nth-child(5) label em,
+.pay_failure .footer .payment li:nth-child(6) label em {
+  width: 2.26rem;
+  height: 2.26rem;
+}
+.pay_failure .footer .payment li:nth-child(5) label i,
+.pay_failure .footer .payment li:nth-child(6) label i {
+  top: 0.6rem;
+}
+.pay_failure .footer div {
+  width: 100%;
+  margin-top: 1rem;
+  height: 1.96rem;
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.96rem;
+  text-align: center;
+}
+.pay_failure .footer div button {
+  width: 50%;
+  height: 100%;
+  background-color: #07771c;
+  font-size: 0.72rem;
+  color: #ffffff;
+}
+.pay_failure .footer div button:first-child {
+  background-color: #5eb584;
+}

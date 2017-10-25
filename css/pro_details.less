@@ -1,0 +1,193 @@
+@import "_function";
+.pro_details{
+  .header{
+    .w(750);
+    .h(86);
+    .b-g-c(#07771c);
+    position: relative;
+    a{
+      .c(#fff);
+      .dis-ib;
+      .h(86);
+      .f-s(60);
+      .l(20);
+      position: absolute;
+    }
+    h3{
+      .f-s(40);
+      .c(#fff);
+      .w(210);
+      .f-w-n;
+      .m-a;
+      .l-h(86);
+    }
+    .toggle_menu{
+      position: absolute;
+      .r(20);
+      .t(20);
+      .w(64);
+      .h(10);
+      content: "";
+      .b-g-c(#fff);
+      box-shadow: 0 .34rem 0 0 #fff,0 .68rem 0 0 #fff;
+    }
+  }
+  .middle{
+    .p(40,20,40,20);
+    .m-t(20);
+    .b-t(2,solid,#dedede);
+    position: relative;
+    h5{
+      .f-s(30);
+      .c(#0f0f0f);
+      .f-w-n;
+      .m-b(10);
+      .w(650);
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+    }
+    .price_wrap{
+      .f-s(28);
+      .c(#07771c);
+      span{
+        .f-s(40);
+      }
+      a{
+        .f-s(24);
+        .c(#666);
+        .m-l(66);
+      }
+    }
+    .tips{
+      .f-s(24);
+      .c(#3c8e61);
+      .l-h(72);
+    }
+    .other_info{
+      display: flex;
+      justify-content: space-between;
+      .f-s(24);
+      .c(#666);
+    }
+    .post_info{
+      .f-s(24);
+      .c(#3c8e61);
+      .l-h(66);
+      .o-f;
+      span{
+        margin: 0 .2rem;
+      }
+      b{
+        .c(#666);
+        .m-l(30);
+        font-weight: normal;
+      }
+      a{
+        .f-r;
+        .c(#666);
+      }
+    }
+    .service{
+      .o-f;
+      label{
+        .f-s(24);
+        .c(#666);
+        .m-r(60);
+        vertical-align: text-top;
+      }
+      input{
+        display: none;
+        &:checked +span b {
+          opacity: 1;
+        }
+      }
+      span{
+        .l-h(20);
+        .m-r(10);
+        .c(#3c8e61);
+        .t-a-c;
+        .dis-ib;
+        .w(20);
+        .h(20);
+        border-radius: 50%;
+        border: 1px solid #3c8e61;
+        b{
+          opacity: 0;
+          .f-s(24);
+        }
+      }
+      a{
+        .f-r;
+        .c(#666);
+        .f-s(24);
+      }
+    }
+    .share{
+      position: absolute;
+      .t(30);
+      .r(20);
+      a{
+        img{
+          .w(40);
+          .h(41);
+        }
+        span{
+          .dis-b;
+          .f-s(24);
+          .c(#111010);
+        }
+      }
+
+    }
+  }
+  .footer{
+    .w(750);
+    .h(96);
+    .b-g-c(#f2f2f2);
+    .o-f;
+    .footer_left{
+      .p(10,40,10,20);
+      .w(280);
+      .f-l;
+      display: flex;
+      justify-content: space-between;
+      a{
+        .f-s(24);
+        .c(#666);
+        img{
+          .w(53);
+          .h(53);
+          .dis-b;
+        }
+        span{
+          display: block;
+        }
+      }
+    }
+    .footer_right{
+      .f-r;
+      .w(410);
+      height: 100%;
+      .o-f;
+      .addToCart,.buyRightNow{
+        .dis-b;
+        width: 50%;
+        height: 100%;
+        .f-s(36);
+        .c(#fff);
+        .t-a-c;
+        .l-h(96);
+      }
+      .addToCart{
+        .b-g-c(#5eb584);
+        .f-l
+      }
+      .buyRightNow{
+        .b-g-c(#07771c);
+        .f-r;
+      }
+    }
+  }
+}

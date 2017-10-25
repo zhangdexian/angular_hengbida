@@ -1,0 +1,261 @@
+.pay .header {
+  width: 15rem;
+  height: 1.72rem;
+  background-color: #07771c;
+  position: relative;
+}
+.pay .header a {
+  color: #ffffff;
+  display: inline-block;
+  height: 1.72rem;
+  font-size: 1.2rem;
+  left: 0.4rem;
+  position: absolute;
+}
+.pay .header h3 {
+  font-size: 0.8rem;
+  color: #ffffff;
+  width: 4.2rem;
+  font-weight: normal;
+  margin: 0 auto;
+  line-height: 1.72rem;
+}
+.pay .header .toggle_menu {
+  position: absolute;
+  right: 0.4rem;
+  top: 0.4rem;
+  width: 1.28rem;
+  height: 0.2rem;
+  content: "";
+  background-color: #ffffff;
+  box-shadow: 0 .34rem 0 0 #fff,0 .68rem 0 0 #fff;
+}
+.pay .middle h5 {
+  font-size: 0.56rem;
+  color: #333333;
+  font-weight: normal;
+  line-height: 1.4rem;
+  text-indent: 0.4rem;
+}
+.pay .middle .order_list {
+  background-color: #f3f3f3;
+  padding: 0.6rem 0rem 0.2rem 0.4rem;
+}
+.pay .middle .order_list li:not(:first-child) {
+  margin-top: 1.4rem;
+}
+.pay .middle .order_list li .order_info {
+  font-size: 0.48rem;
+  padding-left: 0.4rem;
+  overflow: hidden;
+}
+.pay .middle .order_list li .order_info .orderId_tag {
+  float: left;
+}
+.pay .middle .order_list li .order_info .orderId_tag .orderId {
+  color: #07771c;
+}
+.pay .middle .order_list li .order_info .orderTime_tag {
+  float: right;
+}
+.pay .middle .order_list li .order_details {
+  padding-top: 0.6rem;
+  overflow: hidden;
+}
+.pay .middle .order_list li .order_details .pro_img {
+  float: left;
+}
+.pay .middle .order_list li .order_details .pro_img a img {
+  width: 4.4rem;
+  height: 4.4rem;
+  margin-right: 0.6rem;
+}
+.pay .middle .order_list li .order_details .pro_details {
+  float: left;
+  width: 9.4rem;
+}
+.pay .middle .order_list li .order_details .pro_details h3 {
+  -webkit-transform: translateY(-0.2rem);
+  -moz-transform: translateY(-0.2rem);
+  -ms-transform: translateY(-0.2rem);
+  -o-transform: translateY(-0.2rem);
+  transform: translateY(-0.2rem);
+}
+.pay .middle .order_list li .order_details .pro_details h3 a {
+  font-size: 0.56rem;
+  color: #111010;
+  vertical-align: top;
+  line-height: 0.92rem;
+  font-weight: normal;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.pay .middle .order_list li .order_details .pro_details .weight_tag,
+.pay .middle .order_list li .order_details .pro_details .color_tag {
+  font-size: 0.48rem;
+  color: #666666;
+  height: 0.8rem;
+  line-height: 0.8rem;
+}
+.pay .middle .order_list li .order_details .pro_details .weight_tag span,
+.pay .middle .order_list li .order_details .pro_details .color_tag span {
+  margin-left: 0.16rem;
+}
+.pay .middle .order_list li .order_details .pro_details .purchase_info {
+  overflow: hidden;
+  color: #07771c;
+}
+.pay .middle .order_list li .order_details .pro_details .purchase_info .price_tag {
+  font-size: 0.48rem;
+  float: right;
+  margin-right: 0.16rem;
+}
+.pay .middle .order_list li .order_details .pro_details .purchase_info .price_tag .price {
+  font-size: 0.8rem;
+}
+.pay .middle .order_list li .order_details .pro_details .count_tag {
+  line-height: 1.04rem;
+  float: left;
+  font-size: 0.48rem;
+  color: #666666;
+}
+.pay .middle .order_list li .order_details .pro_details .count_tag .count {
+  margin-left: 0.2rem;
+}
+.pay .footer {
+  width: 100%;
+  margin-top: -2.6rem;
+  background-color: #f2f2f2;
+}
+.pay .footer h5 {
+  font-size: 0.72rem;
+  color: #333333;
+  font-weight: normal;
+  line-height: 1.92rem;
+  text-indent: 0.4rem;
+  background-color: rgba(255, 255, 255, 0.68);
+}
+.pay .footer .payment {
+  padding: 0 .4rem;
+}
+.pay .footer .payment li {
+  margin: .4rem 0;
+}
+.pay .footer .payment li:nth-child(even) {
+  display: none;
+}
+.pay .footer .payment li:nth-child(even) span {
+  color: #07771c;
+}
+.pay .footer .payment li:nth-child(even) i {
+  background-color: #07771c;
+}
+.pay .footer .payment li label {
+  font-size: 0.56rem;
+  color: #666666;
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+.pay .footer .payment li label em {
+  display: inline-block;
+}
+.pay .footer .payment li label span {
+  margin-left: 0.28rem;
+}
+.pay .footer .payment li label input {
+  float: right;
+  opacity: 0;
+}
+.pay .footer .payment li label i {
+  display: inline-block;
+  width: 1.04rem;
+  height: 1.04rem;
+  border-radius: 50%;
+  background-color: #bfbfbf;
+  position: absolute;
+  right: 0rem;
+  text-align: center;
+  line-height: 1.04rem;
+}
+.pay .footer .payment li label i b {
+  font-style: normal;
+  color: #ffffff;
+}
+.pay .footer .payment li:first-child label span,
+.pay .footer .payment li:nth-child(2) label span,
+.pay .footer .payment li:first-child label input,
+.pay .footer .payment li:nth-child(2) label input {
+  vertical-align: 0.64rem;
+}
+.pay .footer .payment li:first-child label em,
+.pay .footer .payment li:nth-child(2) label em {
+  width: 2.24rem;
+  height: 1.68rem;
+}
+.pay .footer .payment li:first-child label i,
+.pay .footer .payment li:nth-child(2) label i {
+  top: 0.32rem;
+}
+.pay .footer .payment li:nth-child(3) label span,
+.pay .footer .payment li:nth-child(4) label span,
+.pay .footer .payment li:nth-child(3) label input,
+.pay .footer .payment li:nth-child(4) label input {
+  vertical-align: 0.88rem;
+}
+.pay .footer .payment li:nth-child(3) label em,
+.pay .footer .payment li:nth-child(4) label em {
+  width: 2.2rem;
+  height: 2.2rem;
+}
+.pay .footer .payment li:nth-child(3) label i,
+.pay .footer .payment li:nth-child(4) label i {
+  top: 0.6rem;
+}
+.pay .footer .payment li:nth-child(5) label span,
+.pay .footer .payment li:nth-child(6) label span,
+.pay .footer .payment li:nth-child(5) label input,
+.pay .footer .payment li:nth-child(6) label input {
+  vertical-align: 0.92rem;
+}
+.pay .footer .payment li:nth-child(5) label em,
+.pay .footer .payment li:nth-child(6) label em {
+  width: 2.26rem;
+  height: 2.26rem;
+}
+.pay .footer .payment li:nth-child(5) label i,
+.pay .footer .payment li:nth-child(6) label i {
+  top: 0.6rem;
+}
+.pay .footer .total_wrap {
+  width: 100%;
+  height: 1.96rem;
+  background-color: #f2f2f2;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.96rem;
+  text-align: center;
+}
+.pay .footer .total_wrap button {
+  width: 5.84rem;
+  height: 100%;
+  background-color: #07771c;
+  font-size: 0.72rem;
+  color: #ffffff;
+}
+.pay .footer .total_wrap div {
+  text-indent: 0.4rem;
+  font-size: 0.48rem;
+  color: #000000;
+}
+.pay .footer .total_wrap div span {
+  font-size: 0.56rem;
+  color: #07771c;
+}
+.pay .footer .total_wrap div span b {
+  font-size: 0.68rem;
+  font-weight: normal;
+}

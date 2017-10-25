@@ -1,0 +1,113 @@
+@import "_function";
+
+.user{
+  .header{
+    width: 100%;
+    .h(86);
+    .b-g-c(#07771c);
+    h3{
+      .t-a-c;
+      .f-s(36);
+      .c(#fff);
+      .l-h(86);
+      .f-w-n;
+    }
+  }
+  .user_info{
+    width: 100%;
+    .h(326);
+    background: url("../img/user02.png") no-repeat;
+    .p-t(50);
+    .o-f;
+    .avatar{
+      .w(157);
+      .h(157);
+      .f-l;
+      border-radius: 50%;
+      .m-l(110);
+      img{
+        .dis-b;
+        .w(157);
+        .h(157);
+      }
+    }
+    .user_name{
+      .m-l(22);
+      .f-l;
+      .p-t(36);
+      h5{
+        .f-s(46);
+        .c(#fff);
+        .f-w-n;
+        .l-h(56);
+      }
+      p{
+        .f-s(30);
+        .c(#fff);
+      }
+    }
+  }
+  .middle{
+    .p-t(26);
+    .p-b(120);
+    width: 100%;
+    div{
+      .w(700);
+      .h(90);
+      .p(0,20,0,30);
+      .o-f;
+      img{
+        .dis-b;
+        .f-l;
+        .m-r(26);
+        .w(49);
+        .h(53);
+        .m-t(22);
+      }
+      h5{
+        .f-l;
+        .f-s(28);
+        .c(#333);
+        .l-h(90);
+        .f-w-n;
+      }
+      span{
+        .f-r;
+        .c(#ccc);
+        .m-t(10);
+      }
+    }
+  }
+  .footer{
+    position: fixed;
+    .b-g-c(#f2f2f2);
+    .b(0);
+    .navbar{
+      display: flex;
+      justify-content: space-between;
+      .t-a-c;
+      li{
+        .w(750/4);
+        .p(10,0,10,0);
+        a{
+          img{
+            .w(52);
+            .h(52);
+          }
+          h6{
+            .f-s(24);
+            .c(#666);
+            .f-w-n;
+          }
+        }
+        &.current{
+          .b-g-c(#07771c);
+          a h6{
+            .c(#fff);
+          }
+        }
+      }
+    }
+  }
+}
+

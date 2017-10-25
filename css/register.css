@@ -1,0 +1,200 @@
+.register .header {
+  width: 15rem;
+  height: 1.72rem;
+  background-color: #07771c;
+  position: relative;
+}
+.register .header a:first-child {
+  color: #ffffff;
+  display: inline-block;
+  height: 1.72rem;
+  font-size: 1.2rem;
+  left: 0.4rem;
+  position: absolute;
+}
+.register .header h3 {
+  font-size: 0.8rem;
+  color: #ffffff;
+  width: 4.2rem;
+  font-weight: normal;
+  margin: 0 auto;
+  line-height: 1.72rem;
+}
+.register .header a:last-child {
+  position: absolute;
+  font-size: 0.72rem;
+  color: #ffffff;
+  right: 0.4rem;
+  top: 0.4rem;
+}
+.register .middle {
+  padding: 1.8rem 0.4rem 7rem 0.4rem;
+  font-size: 0;
+}
+.register .middle form .wrap label {
+  display: inline-block;
+  width: 2.96rem;
+  height: 1.56rem;
+  font-size: 0.72rem;
+  color: #333333;
+  -webkit-transform: translateY(-0.1rem);
+  -moz-transform: translateY(-0.1rem);
+  -ms-transform: translateY(-0.1rem);
+  -o-transform: translateY(-0.1rem);
+  transform: translateY(-0.1rem);
+  text-align: justify;
+  vertical-align: middle;
+  position: relative;
+}
+.register .middle form .wrap label:after {
+  display: inline-block;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  content: '';
+  vertical-align: top;
+}
+.register .middle form .wrap label:before {
+  position: absolute;
+  content: ':';
+  display: block;
+  overflow: hidden;
+  top: 0rem;
+  left: 3rem;
+}
+.register .middle form .wrap input {
+  margin-left: 0.4rem;
+  width: 10.8rem;
+  height: 1.52rem;
+  font-size: 0.72rem;
+  color: #333333;
+  text-indent: 0.4rem;
+  border: 0.02rem solid #dedada;
+}
+.register .middle form .wrap p {
+  font-size: 0.48rem;
+  color: #ff0000;
+  text-indent: 3.2rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  margin-bottom: 0.04rem;
+}
+.register .middle form .validate_wrap {
+  position: relative;
+}
+.register .middle form .validate_wrap label {
+  display: inline-block;
+  width: 2.96rem;
+  font-size: 0.72rem;
+  color: #333333;
+  text-align: justify;
+  vertical-align: bottom;
+}
+.register .middle form .validate_wrap label:after {
+  display: inline-block;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  content: '';
+  vertical-align: top;
+}
+.register .middle form .validate_wrap label:before {
+  position: absolute;
+  content: ':';
+  display: block;
+  overflow: hidden;
+  top: 0.1rem;
+  left: 3rem;
+}
+.register .middle form .validate_wrap input {
+  margin-left: 0.4rem;
+  width: 6.4rem;
+  height: 1.52rem;
+  font-size: 0.72rem;
+  color: #333333;
+  text-indent: 0.4rem;
+  border: 0.02rem solid #dedada;
+  -webkit-transform: translateY(-0.6rem);
+  -moz-transform: translateY(-0.6rem);
+  -ms-transform: translateY(-0.6rem);
+  -o-transform: translateY(-0.6rem);
+  transform: translateY(-0.6rem);
+}
+.register .middle form .validate_wrap i {
+  font-size: 0.48rem;
+  position: absolute;
+  top: 0.46rem;
+  left: 8.92rem;
+  font-style: normal;
+}
+.register .middle form .validate_wrap i.correct {
+  color: #008000;
+}
+.register .middle form .validate_wrap i.err {
+  color: #ff0000;
+}
+.register .middle form .validate_wrap span {
+  display: inline-block;
+  width: 4rem;
+  height: 1.52rem;
+  border: 0.02rem solid #dedada;
+  margin-left: 0.36rem;
+  -webkit-transform: translateY(-0.11rem);
+  -moz-transform: translateY(-0.11rem);
+  -ms-transform: translateY(-0.11rem);
+  -o-transform: translateY(-0.11rem);
+  transform: translateY(-0.11rem);
+}
+.register .middle form .subscribe {
+  font-size: 0.48rem;
+  color: #666666;
+  margin-top: 1rem;
+  padding-left: 2.8rem;
+  position: relative;
+}
+.register .middle form .subscribe input {
+  opacity: 0;
+  margin-right: 0.2rem;
+  position: relative;
+  z-index: 10;
+  width: 0.36rem;
+  height: 0.32rem;
+}
+.register .middle form .subscribe input:checked + i b {
+  opacity: 1;
+}
+.register .middle form .subscribe i {
+  display: inline-block;
+  width: 0.32rem;
+  height: 0.32rem;
+  border: 0.02rem solid #07771c;
+  position: absolute;
+  top: 0.16rem;
+  left: 3rem;
+}
+.register .middle form .subscribe i b {
+  position: absolute;
+  top: -0.1rem;
+  left: 0rem;
+  font-style: normal;
+  color: #07771c;
+  font-size: 0.4rem;
+  opacity: 0;
+}
+.register .middle form .subscribe span {
+  margin-left: 0.12rem;
+  display: inline-block;
+  width: 10.6rem;
+}
+.register .middle form .subscribe span a {
+  color: #07771c;
+}
+.register .middle form button {
+  width: 100%;
+  height: 1.72rem;
+  background-color: #07771c;
+  margin-top: 1rem;
+  font-size: 0.68rem;
+  color: #ffffff;
+  line-height: 1.72rem;
+}
